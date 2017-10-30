@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ues.occ.prn335_guia07_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <jta-data-source>jdbc_post</jta-data-source>
+    <class>ues.occ.prn335.guia07.Categoria</class>
+    <class>ues.occ.prn335.guia07.Cometario</class>
+    <class>ues.occ.prn335.guia07.Meta</class>
+    <class>ues.occ.prn335.guia07.Paso</class>
+    <class>ues.occ.prn335.guia07.Post</class>
+    <class>ues.occ.prn335.guia07.PostPaso</class>
+    <class>ues.occ.prn335.guia07.PostSeccion</class>
+    <class>ues.occ.prn335.guia07.Rol</class>
+    <class>ues.occ.prn335.guia07.RolCategoria</class>
+    <class>ues.occ.prn335.guia07.Seccion</class>
+    <class>ues.occ.prn335.guia07.TipoPaso</class>
+    <class>ues.occ.prn335.guia07.TipoPost</class>
+    <class>ues.occ.prn335.guia07.TipoPostSeccion</class>
+    <class>ues.occ.prn335.guia07.TipoSeccion</class>
+    <class>ues.occ.prn335.guia07.Usuario</class>
+    <class>ues.occ.prn335.guia07.UsuarioRolCategoria</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
